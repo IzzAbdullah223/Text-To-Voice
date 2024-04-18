@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.Background{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,hsl(212, 96%, 48%),rgb(119, 197, 17));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Background h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.Background h1 span{
+    color: #29d4ffa4;
+    text-decoration: underline;
+}
+
+.Background textarea{
+    width: 600px;
+    height: 250px;
+    background: #3d8478;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px
+    
+}
+
+.Background textarea::placeholder{
+    font-size: 20px;
+    color: white;
+}
+
+.row{
+    border: black solid;
+     width: 600px;
+     display: flex; /*display flex so we can use the gap*/
+     align-items: center;
+     gap: 20px;
+}
+
+.Background button{
+    background: #29d4ff6c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Background button img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.Background select{
+    flex: 1;
+    color: #fff;
+    background: #3d8478;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+}
