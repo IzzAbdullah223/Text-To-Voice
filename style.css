@@ -49,7 +49,6 @@
 }
 
 .row{
-    border: black solid;
      width: 600px;
      display: flex; /*display flex so we can use the gap*/
      align-items: center;
